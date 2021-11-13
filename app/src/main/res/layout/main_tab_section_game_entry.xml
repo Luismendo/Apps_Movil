@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainTabListEntry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/mainTabListGameName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_weight="3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/mainTabListGamePrice"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center|center_vertical"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/mainTabToggleInCart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="Add to cart"
+        android:gravity="center"
+        android:maxHeight="40dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shop_dark" />
+
+</LinearLayout>

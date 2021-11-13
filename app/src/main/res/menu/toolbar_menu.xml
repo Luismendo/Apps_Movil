@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <item android:id="@+id/action_menu"
+        android:title="Menu"
+        android:icon="@drawable/menu"
+        app:showAsAction="ifRoom"
+        />
+        -->
+    <item
+        android:id="@+id/send_contact_reclaim"
+        android:icon="@drawable/email_send"
+        android:title="Shop"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_shop"
+        android:icon="@drawable/shop"
+        android:title="Shop"
+        app:showAsAction="ifRoom" />
+</menu>

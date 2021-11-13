@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/mi_carrito"
+            android:title="@string/menu_carrito" />
+    </group>
+
+    <item android:title="OPCIONES">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Novedades"
+                    android:title="@string/menu_option1" />
+                <item
+                    android:id="@+id/Ofertas"
+                    android:title="@string/menu_option2" />
+                <item
+                    android:id="@+id/PS4"
+                    android:title="@string/menu_option3" />
+                <item
+                    android:id="@+id/Xbox"
+                    android:title="@string/menu_option4" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="AYUDA">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/where"
+                    android:title="¿Donde estamos?" />
+                <item
+                    android:id="@+id/Contacto"
+                    android:title="Contacto" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
+<!--android:icon="@drawable/ic_menu_send"-->

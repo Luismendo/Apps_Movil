@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".fragments.ContactFragment">
+
+    <TextView
+        android:id="@+id/textExplian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Seleccione una opción:"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/butt_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contactar" />
+
+        <RadioButton
+            android:id="@+id/butt_reclaim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reclamación de un pedido" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_contact_next"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Siguiente" />
+
+</LinearLayout>
